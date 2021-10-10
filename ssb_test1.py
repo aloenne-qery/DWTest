@@ -27,9 +27,7 @@ query = {
   }
 }
 resultat = requests.post(ssburl, json = query)
-print(resultat)
 dataset = pyjstat.Dataset.read(resultat.text)
 type(dataset)
 df = dataset.write('dataframe')
-df.info
-df.to_csv('befolkning.csv', index=False)
+df.to_csv('data/befolkning.csv', index=False)
