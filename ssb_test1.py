@@ -1,4 +1,3 @@
-pip install pyjstat
 from pyjstat import pyjstat
 import requests
 ssburl = 'https://data.ssb.no/api/v0/no/table/06913/'
