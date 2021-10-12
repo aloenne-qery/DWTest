@@ -35,7 +35,7 @@ query = {
       "selection": {
         "filter": "top",
         "values": [
-          17
+          25
         ]
       }
     }
